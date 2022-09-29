@@ -7,7 +7,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] data = {4,2,6,4,9,8,0,1,2,6,3,7,8,5};
+        String[] data = {"Rosa", "Pepe", "María", "Pepe", "Pepe", "Rosa"};
         HistogramGenerator hist = new HistogramGenerator(data);
         Map<Integer,Integer> histogram = hist.getHistogram();
         
